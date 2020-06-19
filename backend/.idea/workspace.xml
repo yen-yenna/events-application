@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81f74d90-8350-47df-96a8-5999e6c8560d" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>name</find>
+      <find>Date</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/EventTypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/RegisterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/UserDService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/UserDetailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/EventAppApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/cart/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/cart/model/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/cart/repository/CartRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/cart/repository/CartLineRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/HibernateSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/search/HibernateSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/search/EventSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/EventType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/EventTypeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/EventController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/payment/Pyment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/payment/PaymentRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/LocalizationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/LocalizaionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/HallRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/HallService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/LocalizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Localization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Hall.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/HallController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/EventRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/TicketRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/request/EventRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/UserDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/request/Reserved.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/TicketService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/payment/PaymentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/payment/PaymentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/SecurityConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="C:\Users\Ja\Desktop\inzynierka\event-app" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="event-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="event-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="987" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="szuberska.engineer.eventapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EventAppApplication">
+    <configuration name="Cart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="szuberska.engineer.eventapp.model.Cart" />
+      <module name="event-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="szuberska.engineer.eventapp.cart.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="event-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="szuberska.engineer.eventapp.EventAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81f74d90-8350-47df-96a8-5999e6c8560d" name="Default Changelist" comment="" />
+      <created>1570734121971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570734121971</updated>
+      <workItem from="1570734123553" duration="1438000" />
+      <workItem from="1570988041922" duration="42118000" />
+      <workItem from="1573928505663" duration="3212000" />
+      <workItem from="1574166697176" duration="128000" />
+      <workItem from="1574263064755" duration="593000" />
+      <workItem from="1574427834536" duration="8261000" />
+      <workItem from="1574791968915" duration="47381000" />
+      <workItem from="1575681289968" duration="25804000" />
+      <workItem from="1575841797075" duration="19624000" />
+      <workItem from="1576090105919" duration="12262000" />
+      <workItem from="1576156787400" duration="13579000" />
+      <workItem from="1576243027383" duration="20938000" />
+      <workItem from="1576323587610" duration="1509000" />
+      <workItem from="1576335066030" duration="46177000" />
+      <workItem from="1576810226711" duration="625000" />
+      <workItem from="1576872288361" duration="1565000" />
+      <workItem from="1578950737975" duration="860000" />
+      <workItem from="1579561058898" duration="820000" />
+      <workItem from="1582813691510" duration="2919000" />
+      <workItem from="1582902865976" duration="597000" />
+      <workItem from="1582996664776" duration="7550000" />
+      <workItem from="1583261867567" duration="580000" />
+      <workItem from="1583429950373" duration="598000" />
+      <workItem from="1583771550854" duration="10837000" />
+      <workItem from="1584644197675" duration="15418000" />
+      <workItem from="1584910609464" duration="2436000" />
+      <workItem from="1585069291047" duration="8739000" />
+      <workItem from="1585147841436" duration="3016000" />
+      <workItem from="1585427854654" duration="3963000" />
+      <workItem from="1585576091112" duration="6098000" />
+      <workItem from="1585688259094" duration="1453000" />
+      <workItem from="1585927257841" duration="18091000" />
+      <workItem from="1586174483794" duration="10542000" />
+      <workItem from="1586446022866" duration="860000" />
+      <workItem from="1586526599705" duration="10224000" />
+      <workItem from="1586607038564" duration="5084000" />
+      <workItem from="1586717314905" duration="7742000" />
+      <workItem from="1587325459366" duration="598000" />
+      <workItem from="1587399402394" duration="610000" />
+      <workItem from="1587558235364" duration="16624000" />
+      <workItem from="1587646773222" duration="5751000" />
+      <workItem from="1587819475878" duration="13356000" />
+      <workItem from="1588157650116" duration="13430000" />
+      <workItem from="1588349174614" duration="2688000" />
+      <workItem from="1588422881120" duration="8048000" />
+      <workItem from="1588597669370" duration="30367000" />
+      <workItem from="1589418986393" duration="792000" />
+      <workItem from="1589461990625" duration="1204000" />
+      <workItem from="1589537866736" duration="351000" />
+      <workItem from="1589893398438" duration="16268000" />
+      <workItem from="1589943368876" duration="15144000" />
+      <workItem from="1592598301124" duration="940000" />
+      <workItem from="1592607241197" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="489843000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.2769231" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.502994" side_tool="true" weight="0.26153848" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.28419182" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.39076376" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32955465" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955465" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.24615385" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.502994" side_tool="true" weight="0.26153848" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.39609236" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.39076376" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32955465" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955465" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/cart/model/Cart.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/cart/controller/CartController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/search/HibernateSearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/search/EventSearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/GlobalExceptionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/EventAppApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/ErrorDetails.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/controller/RegisterController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.10.RELEASE/spring-beans-5.1.10.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/model/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/controller/AdminController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/EventTypeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/EventTypeRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/LocalizationRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/AdminService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/HallRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/RegisterService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Localization.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/LocalizationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/HallController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/HallService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/EventTypeService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/ResourceNotFoundException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/LocalizaionService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/model/LoginForm.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/payment/PaymentRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/repository/UserRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/EventController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/EventRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/UserDetail.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/register/service/UserDetailService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/EventService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/EventType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/Factory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Hall.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Ticket.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/services/TicketService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/request/Reserved.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/request/EventRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/controller/TicketController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/repository/TicketRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/model/Event.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/payment/PaymentController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/payment/PaymentService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/szuberska/engineer/eventapp/SecurityConfig.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install:install-file -Dfile=C:\\Users\\Ja\\Desktop\\inzynierka\\event-app\\ojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=18.3.0.0.0 -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=C:\\Users\\Ja\\Desktop\\inzynierka\\event-appojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=18.3.0.0.0 -Dpackaging=jar" />
+    <option value="install:instal-file -Dfile=C:\\Users\\Ja\\Desktop\\inzynierka\\event-appojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=18.3.0.0.0 -Dpackaging=jar" />
+  </component>
+</project>
