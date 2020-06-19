@@ -1,0 +1,32 @@
+<div class="panel panel-primary" >
+  <div class="panel-heading">
+    <h2 align="center" >  Lista użytkowników: </h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Username</th>
+        <th>Imię</th>
+        <th>Nazwisko</th>
+        <th>Email</th>
+        <th>Rola</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let userr of users | async">
+        <td>{{userr.userName}}</td>
+        <td>{{userr.firstName}}</td>
+        <td>{{userr.surname}}</td>
+        <td>{{userr.email}}</td>
+        <td>{{userr.role}}</td>
+        <td>
+          <button *ngIf="userr.role!==ad" (click)="deleteUser(userr.userName)" mdbBtn type="button" color="unique" mdbWavesEffect style="margin-left: 5px; background: lightsalmon">Usuń</button>
+          <button (click)="updateUser(userr.userName)" class="btn btn-warning" style="margin-left: 5px; background: lightsalmon">Aktualizuj</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

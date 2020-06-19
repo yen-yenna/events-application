@@ -1,0 +1,24 @@
+<h3>Create Event!</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="type">Type</label>
+      <input type="text" class="form-control" id="type" required [(ngModel)]="eventType.type" name="type">
+    </div>
+    <div class="form-group">
+      <label for="seatNo">Number of seats</label>
+      <input type="text" class="form-control" id="seatNo" required [(ngModel)]="eventType.seatNo" name="seatNo">
+    </div>
+    <div class="form-group">
+      <label for="columns">Number of columns</label>
+      <input type="text" class="form-control" id="columns" required [(ngModel)]="eventType.noOfColumns" name="columns">
+    </div>
+    <div class="form-group">
+      <label for="rows">Number of rows</label>
+      <input type="text" class="form-control" id="rows" required [(ngModel)]="eventType.seatsInARow" name="rows">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+

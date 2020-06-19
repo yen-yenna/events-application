@@ -1,0 +1,33 @@
+<br>
+<div class="container">
+  <div class="panel panel-primary" >
+  <div class="panel-heading" >
+    <h2 >Wydarzenia: </h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th></th>
+        <th>Nazwa wydarzenia</th>
+        <th>Miasto</th>
+        <th>Data</th>
+        <th>Cena</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let eventt of eevent | async">
+        <td> <img src="{{eventt.link}}" alt="" height=100px width=100px />  </td>
+        <td>{{eventt.description}}</td>
+        <td>{{eventt.city}}</td>
+        <td>{{eventt.eventDate}}</td>
+        <td>{{eventt.ticketPrice}}</td>
+        <td>
+          <button (click)="eventDetails(eventt.eventId)" class="btn btn-warning" style="margin-left: 5px; background: sandybrown">Szczegóły</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>

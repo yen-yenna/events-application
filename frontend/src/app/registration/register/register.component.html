@@ -1,0 +1,55 @@
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin my-5">
+        <div class="card-body">
+          <h5 class="card-title text-center">Rejestracja</h5>
+          <form class="form-signin"  [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm.value)"autocomplete="off" novalidate >
+
+
+              <div class="form-label-group">
+                <input type="text" placeholder="username"  class="form-control" formControlName="userName"  required>
+              </div>
+              <div class="form-label-group">
+                <input  type="password" placeholder="{{'password'}}" class="form-control" formControlName="password" id="password" required >
+                <div *ngIf="getUserPassword().errors">
+                  <div class = "alert alert-danger" *ngIf="getUserPassword().errors.pattern">
+                    Niepoprawne hasło - hasło musi zawierać dużą literę, cyfrę i znak specjalny ('@,#,$...')
+                  </div>
+              </div>
+              </div>
+              <div class="form-label-group">
+
+                <input  type="text" placeholder="{{'firstName'}}" class="form-control" formControlName="firstName" id="firstName" required >
+              </div>
+              <div class="form-label-group">
+              <input  type="text" placeholder="{{'surname'}}" class="form-control" formControlName="surname" id="surname" required >
+            </div>
+              <div class="form-label-group">
+                <input  type="text" placeholder="{{'email'}}" class="form-control" formControlName="email" id="email" required >
+               <div *ngIf="getEmail().touched && getEmail().errors">
+                 <div class = "alert alert-danger" *ngIf="getEmail().errors.required">
+                   Nie można zostawić pustego pola
+                 </div>
+               </div>
+                <div *ngIf="getEmail().errors">
+                  <div class = "alert alert-danger" *ngIf="getEmail().errors.pattern">
+                    Niepoprawny adres E-mail
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" name="checkbox" value="check" id="agree"  required /> Zgadzam się z
+                <a href="http://localhost:4200/regulamin" target="_blank">Regulaminem strony</a>.
+              </div>
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Rejestruj</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

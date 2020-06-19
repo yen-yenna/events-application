@@ -1,0 +1,51 @@
+<div class="container">
+<h3>Dodawanie wydarzenia</h3>
+  <div width="400px">
+  <form (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="description">Nazwa wydarzenia: </label>
+      <input type="text" class="form-control" id="description" required [(ngModel)]="eevent.description" name="description">
+    </div>
+
+    <div class="form-group">
+      <label for="city">Miasto: </label>
+      <input type="text" class="form-control" id="city" required [(ngModel)]="eevent.city" name="city">
+    </div>
+    <div class="form-group">
+      <label for="eventDate">Data: </label>
+      <input type="date" class="form-control" id="eventDate" required [(ngModel)]="eevent.eventDate" name="eventDate">
+    </div>
+    <div class="form-group">
+      <label for="eventDate">Czas: </label>
+      <input type="time" class="form-control" id="time" required [(ngModel)]="eevent.time" name="time">
+    </div>
+
+    <div class="form-group">
+      <label for="eventTypeId">Typ wydarzenia: </label>
+      <input type="number" class="form-control" id="eventTypeId" required [(ngModel)]="eevent.eventTypeId" name="eventTypeId">
+    </div>
+    <div class="form-group">
+      <label for="ticketPrice">Cena: </label>
+      <input type="text" class="form-control" id="ticketPrice" required [(ngModel)]="eevent.ticketPrice" name="ticketPrice">
+    </div>
+    <div class="form-group">
+      <label for="longerDescription">Opis wydarzenia: </label>
+      <input type="text" class="form-control" id="longerDescription" required [(ngModel)]="eevent.longerDescription" name="longerDescription">
+    </div>
+    <div class="form-group">
+      <label for="link">Link do zdjęcia: </label>
+      <input type="text" class="form-control" id="link" required [(ngModel)]="eevent.link" name="link">
+    </div>
+    <div class="form-group">
+      <label for="hallId">Identyfikator sali:</label>
+      <input type="text" class="form-control" id="hallId" required [(ngModel)]="eevent.hallId" name="hallId">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+</div>
+
+
+

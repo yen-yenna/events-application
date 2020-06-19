@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+
+.mat-form-field-empty.mat-form-field-label {
+  color: palevioletred;
+}
+.mat-form-field-underline {
+  background-color: palevioletred;
+}

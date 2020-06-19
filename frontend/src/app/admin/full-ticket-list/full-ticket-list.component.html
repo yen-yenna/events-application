@@ -1,0 +1,25 @@
+<div class="panel panel-primary" >
+  <div class="panel-heading">
+    <h2 align="center">Lista biletów</h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Event ID</th>
+        <th>Username</th>
+        <th>Wybrane miejsce</th>
+        <th>Data zakupu</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let ticket of tickets | async">
+        <td>{{ticket.eventId}}</td>
+        <td>{{ticket.userName}}</td>
+        <td>{{ticket.seatInARow}}</td>
+        <td>{{ticket.buyDate}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

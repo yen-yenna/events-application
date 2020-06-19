@@ -1,0 +1,31 @@
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin my-5">
+        <div class="card-body">
+          <h5 class="card-title text-center">Log in</h5>
+          <form class="form-signin"  [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)" autocomplete="off" novalidate >
+            <div class="form-label-group">
+
+
+    <div class="form-label-group">
+
+      <input  placeholder="{{'username'}}" class="form-control" formControlName="userName" id="userName" required>
+    </div>
+    <div class="form-label-group">
+
+      <input  type="password" placeholder="{{'password'}}" class="form-control" formControlName="password" id="password" required >
+    </div>
+
+            </div>
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Log in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+

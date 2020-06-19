@@ -14,10 +14,7 @@ import java.util.Map;
 
 @Service
 public class PaymentService {
-    // test code : pk_test_Iuq5jutrVpSCi9QH7LHCP0xz00rJDsDVoS
-    // test secret code : sk_test_nR3mWk9944HfrG18IJoPFIGN00xrIRjFDN
-   /* @Value("$sk_test_nR3mWk9944HfrG18IJoPFIGN00xrIRjFDN")
-    private String secretKey;
+    
 
     @PostConstruct
     public void init() {
@@ -35,7 +32,7 @@ public class PaymentService {
 
     @Autowired
     PaymentService() {
-        Stripe.apiKey = "sk_test_nR3mWk9944HfrG18IJoPFIGN00xrIRjFDN";
+        Stripe.apiKey = "sk_test_";
     }
 
 

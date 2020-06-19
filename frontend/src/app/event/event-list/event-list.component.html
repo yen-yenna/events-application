@@ -1,0 +1,35 @@
+<div class="ricardo" >
+<h2>Lista wydarzeń</h2>
+</div>
+<div class="primary">
+  <button  mat-raised-button color="primary" (click)="addEvent()">Dodaj wydarzenie</button>
+</div>
+<div class="panel panel-primary" > </div>
+  <div class="panel-heading">
+
+  <div class="panel-body">
+    <table class="table table-striped" style="overflow-y:scroll;">
+      <thead>
+      <tr>
+        <th>Nazwa</th>
+        <th>Miasto</th>
+        <th>Data</th>
+        <th></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let eventt of eevents | async">
+        <td>{{eventt.description}}</td>
+        <td>{{eventt.city}}</td>
+        <td>{{eventt.eventDate}}</td>
+        <td> <img src="{{eventt.link}}" alt="" height=100px width=100px />  </td>
+        <td>
+          <button  (click)="updateEvent(eventt.eventId)" class="btn btn-warning" style="margin-left: 5px; background: sandybrown">Aktualizuj</button>
+          <button  (click)="deleteEvent(eventt.eventId)" class="btn btn-warning" style="margin-left: 5px; background: lightsalmon">Usuń</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

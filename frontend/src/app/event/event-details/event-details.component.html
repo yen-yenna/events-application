@@ -1,0 +1,28 @@
+<div class="all">
+<img src="https://i.imgur.com/Fsg1wX0.png" class="image"/>
+  <h1 class="eventTitle">{{eevent.description}}</h1>
+</div>
+<div class="event">
+  <main class="innerContainer">
+    <div class="additionalContainer">
+      Podstawowe informacje:
+      <div class="row">
+        <div class="column">
+          <p>Data: {{eevent.eventDate}} </p>
+          <p>Godzina: {{time}}</p>
+        </div>
+        <div class="column">
+          <p> Cena: {{eevent.ticketPrice}}</p>
+          <p>Miasto: {{eevent.city}}</p>
+        </div>
+      </div>
+    </div>
+    <h2> Informacje o wydarzeniu</h2>
+  <img class="im" src="{{eevent.link}}"  style="float: left" />
+    <div class="eventDetails">{{eevent.longerDescription}}</div>
+    <div class="buttonBar marginTop5">
+      <button *ngIf="us" (click)="createTicket(eevent.eventId)" class="btn btn-warning" style="margin-left: 5px; background: forestgreen">Kup bilet</button>
+    </div>
+  </main>
+  </div>
+

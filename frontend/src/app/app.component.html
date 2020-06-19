@@ -1,0 +1,75 @@
+<body class="body" >
+
+<mat-toolbar color="primary">
+
+  <mat-toolbar-row>
+   <div >
+     <a mat-button type="button" class="btn btn-outline-primary" routerLink="/cards">
+       Event App
+     </a >
+
+     <a mat-button *ngIf="ad || em" routerLink="/events">
+       <mat-icon>event</mat-icon>
+       <a class="link">{{'Lista wydarzeń'}}</a>
+     </a>
+
+     <a mat-button routerLink="/add">
+       <mat-icon>event</mat-icon>
+       <a class="link">{{'Wydarzenia'}}</a>
+     </a>
+
+     <a mat-button *ngIf="!userName" routerLink="/user/register">
+       <mat-icon>how_to_reg</mat-icon>
+       <a class="link" >{{'Rejestracja'}}</a>
+     </a>
+       <a mat-button *ngIf="!userName" routerLink="/user/login">
+         <mat-icon>add_circle</mat-icon>
+         <a class="link" > {{'Logowanie'}}</a>
+       </a>
+     <a mat-button  *ngIf="userName" (click)="logout()">
+       <mat-icon>near_me</mat-icon>
+       <a class="link" > {{'Wyloguj'}}</a>
+     </a>
+     <a mat-button  *ngIf="userName && !ad && !em" routerLink="/ticketList">
+       <mat-icon>euro</mat-icon>
+       <a class="link" > {{'Moje bilety'}}</a>
+     </a>
+     <a mat-button  *ngIf="userName && !ad" routerLink="/users/profile/{{userName}}">
+       <mat-icon>account_circle</mat-icon>
+       <a class="link" > {{'Profil'}}</a>
+     </a>
+     <a mat-button  *ngIf="ad" routerLink="/admin">
+       <mat-icon>account_circle</mat-icon>
+       <a class="link" > {{'Profil'}}</a>
+     </a>
+
+
+   </div>
+    <form class="form-inline" (ngSubmit)="onSubmit()" >
+      <input class="form-control mr-sm-2" type="text" placeholder="Search"  aria-label="Search" [formControl]="search">
+      <button type="submit">Search</button>
+    </form>
+
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+<iframe class="label" src="http://free.timeanddate.com/clock/i6lv6fxq/n262/fs17/fcfff/tct/pct/ahr/th1"
+        frameborder="0" width="68" height="22" allowTransparency="true" ></iframe>
+
+<div class="admin-panel">
+  <router-outlet name="admin"></router-outlet>
+</div>
+
+<div class="main" >
+  <div class="container">
+
+  <router-outlet></router-outlet>
+
+</div>
+
+</div>
+
+
+</body>

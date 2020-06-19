@@ -1,0 +1,57 @@
+.all{
+  text-align: center;
+  position: relative;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.marginTop5 {
+  margin-top: 10px;
+}
+.innerContainer {
+  text-align: center;
+}
+.additionalContainer {
+  border:  solid ;
+  font-size: large;
+  background: lightgrey;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.event {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.eventDetails {
+  font-size: 20px;
+  margin-top: -3px;
+  color: black;
+  text-align: justify;
+}
+.eventTitle {
+  top: 60px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.image{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.im {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  float: left;
+}

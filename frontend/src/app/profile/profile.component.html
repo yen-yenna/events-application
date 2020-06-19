@@ -1,0 +1,41 @@
+<div class="container">
+
+<h1>Profil</h1>
+  <hr>
+  <h3>Nazwa użytkownika: {{user.userName}}</h3>
+  <h3>Email: {{user.email}}</h3>
+  <h3>Imię: {{user.firstName}}</h3>
+  <h3>Nazwisko: {{user.surname}}</h3>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="userName">Nazwa użytkownika</label>
+      <input type="text" class="form-control" id="userName" [(ngModel)]="user.userName" name="userName">
+    </div>
+
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="text" class="form-control" id="email" [(ngModel)]="user.email" name="email">
+    </div>
+
+
+    <div class="form-group">
+      <label for="firstName">Imię</label>
+      <input type="text" class="form-control" id="firstName" required [(ngModel)]="user.firstName" name="firstName">
+    </div>
+    <div class="form-group">
+      <label for="surname">Nazwisko</label>
+      <input type="text" class="form-control" id="surname" required [(ngModel)]="user.surname" name="surname">
+
+    </div>
+
+
+    <button type="button" (click)="onClick()" class="btn btn-success">Change password</button>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+
+  </form>
+
+</div>
+
+

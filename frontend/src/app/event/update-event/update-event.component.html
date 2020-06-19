@@ -1,0 +1,35 @@
+<div class="container">
+<h3>Update Event</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="description">Title</label>
+      <input type="text" class="form-control" id="description" [(ngModel)]="eevent.description" name="description">
+    </div>
+
+    <div class="form-group">
+      <label for="city">City</label>
+      <input type="text" class="form-control" id="city" [(ngModel)]="eevent.city" name="city">
+    </div>
+
+
+    <div class="form-group">
+      <label for="eventDate">Event Date</label>
+      <input type="text" class="form-control" id="eventDate" required [(ngModel)]="eevent.eventDate" name="eventDate">
+    </div>
+
+    <div class="form-group">
+      <label for="ticketPrice">Ticket Price</label>
+      <input type="text" class="form-control" id="ticketPrice" required [(ngModel)]="eevent.ticketPrice" name="ticketPrice">
+    </div>
+    <div class="form-group">
+      <label for="longerDescription">Description</label>
+      <input type="text" class="form-control" id="longerDescription" required [(ngModel)]="eevent.longerDescription" name="longerDescription">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+</div>

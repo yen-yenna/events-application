@@ -1,0 +1,15 @@
+.ricardo {
+  text-align: center;
+  margin-top: 20px;
+
+}
+.container {
+  text-align: center;
+  width: 400px;
+  margin-top: 30px;
+}
+form.form-control{
+  width: 40%;
+  text-align: center;
+  position: center;
+}

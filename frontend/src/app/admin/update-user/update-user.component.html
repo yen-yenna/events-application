@@ -1,0 +1,50 @@
+<div class="ricardo">
+  <h2>Panel użytkownika</h2>
+</div>
+
+<div class="container">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+
+
+    <div class="form-group">
+      <label for="role">Role</label>
+      <input type="text" class="form-control" id="role" required [(ngModel)]="user.role" name="role">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="text" class="form-control" id="password"  name="password">
+
+
+    </div>
+      <button type="submit" mat-raised-button color="primary">Submit</button>
+</div>
+  </form>
+</div>
+  <div class="panel panel-primary" >
+    <div class="panel-heading">
+      <h2 align="center">My Tickets</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>Event ID</th>
+          <th>Username</th>
+          <th>Wybrane miejsce</th>
+          <th>Data zakupu</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let ticket of tickets | async">
+          <td>{{ticket.eventId}}</td>
+          <td>{{ticket.userName}}</td>
+          <td>{{ticket.seatInARow}}</td>
+          <td>{{ticket.buyDate}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
